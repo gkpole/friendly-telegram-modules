@@ -19,7 +19,7 @@ class DeMoTiVaToRsMod(loader.Module):
 		self.client = client
 	
 	
-	@loader.tds
+	@loader.owner
 	async def demoticmd(self, message):
 		"""текст + фото или ответ на фото
            не мнёт фотки"""
